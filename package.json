@@ -1,0 +1,21 @@
+{
+  "name": "pokemon-api-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rafael Cruz",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-datasource": "^0.7.2",
+    "apollo-server": "^2.16.0",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.3.3",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
