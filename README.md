@@ -13,7 +13,7 @@ Theme: Pokemon ⚡️
 
 ```bash
 yarn
-yarn dev
+yarn start
 ```
 
 [How it was built](https://github.com/xrafaelcruz/pokemon-api-graphql/blob/master/HowItWasBuilt.md)
