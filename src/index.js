@@ -14,6 +14,10 @@ const server = new ApolloServer({
   dataSources: () => ({
     pokemonAPI: new PokemonAPI({ store }),
   }),
+
+  engine: {
+    reportSchema: true
+  }
 });
 
 server.listen().then(({ url }) => {

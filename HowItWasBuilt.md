@@ -97,3 +97,22 @@ In `src/utils`
 ```bash
 pokemons.hasMany(attacks);
 ```
+
+### Apollo Studio
+
+- Create a new Graph and copy APOLLO_KEY to .env
+
+In `src/index.js`
+
+```bash
+const server = new ApolloServer({
+  // ...other options...
+  engine: {
+    reportSchema: true
+  }
+});
+```
+
+```bash
+yarn start
+```
