@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { ApolloServer } = require('apollo-server');
 
 const typeDefs = require('./schema');
@@ -16,8 +18,8 @@ const server = new ApolloServer({
   }),
 
   engine: {
-    reportSchema: true
-  }
+    reportSchema: true,
+  },
 });
 
 server.listen().then(({ url }) => {

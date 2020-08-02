@@ -111,6 +111,20 @@ const server = new ApolloServer({
     reportSchema: true
   }
 });
+
+```
+
+Install dotenv
+
+```bash
+yarn add dotenv
+```
+
+In `src/index.js`
+
+```bash
+require('dotenv').config();
+...
 ```
 
 ```bash

@@ -4,10 +4,11 @@ Theme: Pokemon ⚡️
 
 #### What is inside?
 
-- graphql Apollo
-- sequelize
-- sqlite
-- nodemon
+- [Graphql Apollo](https://www.apollographql.com/)
+- [Apollo Studio](https://studio.apollographql.com/)
+- [Sequelize](https://sequelize.org/)
+- [sqlite3](https://www.npmjs.com/package/sqlite3)
+- [nodemon](https://www.npmjs.com/package/nodemon)
 
 #### Start
 
